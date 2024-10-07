@@ -1,0 +1,79 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background: linear-gradient(to right, #2FC810, #046A0b);
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+a.inicio{
+    display: flex;
+    text-decoration: none;
+}
+
+.logo{
+    padding: 4px;
+    width: 70px;
+    height: 70px;
+    mix-blend-mode: multiply;
+} 
+
+h1.inicio{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.inicio:hover{
+    font-size: 31px;
+}
+  
+.div-links{
+    margin-left: auto;
+}
+.div-links a{
+    margin-left: 10px;
+}
+
+.div-links a:hover{
+    color: #424242be;
+}
+
+a.botaoinicio{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background: #4a6141;
+    color: #fff;
+    padding: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+footer h3{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+div.redes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.redes p{
+    margin: 0;
+    padding: 10px;
+}

@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.imgconteudo {
+    width: 176px;
+    height: 176px;
+}
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.conteudo1{
+    display: flex;
+    width: 700px;
+    margin: 10px 10px;
+    text-align: justify;
+}
+
+.conteudo1 p{
+    padding-top: 35px;
+}
+
+.conteudo2{
+    display: flex;
+    width: 700px;
+    margin: 10px 10px;
+    text-align: justify;
+    float: right;
+}
+
+.conteudo2 p{
+    padding-top: 35px;
+}
+
+.conteudo3{
+    display: flex;
+    width: 700px;
+    margin: 10px 10px;
+    text-align: justify;
+}
+
+.conteudo3 p{
+    padding-top: 35px;
+}

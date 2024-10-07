@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.A.S.D.A</title>
+    <link rel="stylesheet" href="css/teste.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="shortcut icon" href="logo_agricola-removebg-preview.png" type="image/x-icon">   
+        <style>
+            #conteudo{
+                width: 600px;
+                height: 300px;
+                border: 1px solid black;
+                margin-top: 5px;
+                padding: 10px;
+                background-color: lightgreen;
+            }
+        </style>
+        <script src="calculo.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="home.html" class="inicio">
+                <img src="logo2.png" alt="logo" class="logo">
+                <h1 class="inicio">S.A.S.D.A</h1>
+            </a>
+            <div class="div-links">
+                <a href="dashboard.html" class="botaoinicio">Dashboard</a>
+                <a href="resultados.html" class="botaoinicio">Resultados</a>
+                <a href="calculo.html" class="botaoinicio">Calculo</a>
+            </div>
+        </header>     
+        <button onclick="toggle('conteudo')">Alternar</button>
+        <div id="conteudo">
+            <input type="text" id="potassio">
+            <input type="text" id="nitrogenio">
+            <input type="text" id="fosforo"><br>
+            <div id="filtro">
+                <select id="opcao">
+                    <option value="todos">todos</option>
+                    <option value="cenoura">cenoura</option>
+                    <option value="batata">batata</option>
+                    <option value="beterraba">beterraba</option>
+                    <option value="abobora">abobora</option>
+                    <option value="cebola">cebola</option>
+                </select>
+                <button type="submit" id="calcular">calcular</button>
+            </div>
+    
+            <!-- Div para exibir a lista de resultados -->
+            <div id="resultado"></div>
+        </div>
+    </body>
+</html>
+ 
+ 

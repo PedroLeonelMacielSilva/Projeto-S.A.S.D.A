@@ -1,0 +1,5 @@
+Nosso projeto é voltado para a agritura de pequenos e medios produtores,
+é um medidor de NPK(nitrogenio, fosforo e potassio), que sao os principais
+nutrientes para a fertilização do solo.
+Nosso medidor analisa o NPK e diz com precisao atraves dos dados analisados do
+solo pra dizer qual alimento é mais adequado para se plantar em determinado solo
